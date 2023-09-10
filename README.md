@@ -19,12 +19,17 @@
 ### 집단 간 비교분석 진행
 Alpha diversity의 대표적인 방법으로 집단간 Shannon, Simpson 지수 확인  
 -> 정상인 집단에 다양한 박테리아 종이 분포함을 확인  
+![shannon](https://github.com/Taeyoungleee/Computer-vision-seminar/assets/113446739/54e69072-1d10-432f-b817-025a574b826c)  
 
 Mann-Whitney 검정을 통해 유의미한 변수 추출  
 -> 유의미한 변수와 전체변수를 활용해 다양한 시각화 진행  
 
 Beta diversity 진행하여 시각화  
 -> Alpha diversity 등고선에서 찾지못한 집단간 차이를 Beta 등고선에서 차이를 확인 할 수 있음  
+![Beta PCoA](https://github.com/Taeyoungleee/Computer-vision-seminar/assets/113446739/82db3e48-f4c5-492a-90e2-71f197b91b3d)  
+
+Jaccard Distance 활용한 시각화  
+![jaccard](https://github.com/Taeyoungleee/Computer-vision-seminar/assets/113446739/7f437594-291a-474f-a63b-a8fbf4316dcb)  
 
 --------------------------------------------------------------------------------------------------------------------------------------------
 ## 예측 모델 및 결과  
@@ -34,6 +39,7 @@ Beta diversity 진행하여 시각화
 성능은 좋았으나 데이터가 매우 적어 신뢰하기엔 부족하다 판단  
 
 모델의 Feature Importance 추출하여 인사이트 제공  
+![feature_importance](https://github.com/Taeyoungleee/Computer-vision-seminar/assets/113446739/1596613a-26b4-4932-9365-68845e0dddfc)  
 
 --------------------------------------------------------------------------------------------------------------------------------------------
 ## 결론
